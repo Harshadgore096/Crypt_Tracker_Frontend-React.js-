@@ -1,0 +1,246 @@
+
+
+.header {
+    padding: 20px;
+    background-color:  rgb(52, 49, 49);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+.button-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 15px 0;
+}
+
+.search-input {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 300px;
+    margin-top: 10px;
+}
+
+.crypto-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.crypto-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 15px;
+    width: 300px;
+    transition: transform 0.2s;
+}
+
+.crypto-card:hover {
+    transform: translateY(-5px);
+}
+
+.crypto-logo {
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+
+.centered-logo {
+    display: block;
+    margin: 0 auto;
+}
+
+.crypto-name {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.crypto-symbol {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.crypto-price {
+    font-size: 1.2em;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.crypto-volume {
+    font-size: 1em;
+    margin-top: 8px;
+    color: #777;
+}
+
+.crypto-change {
+    font-size: 1em;
+    margin-top: 8px;
+    color: green;
+}
+
+.crypto-change.negative {
+    color: red;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 15px;
+}
+
+.btn {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-weight: 500;
+    transition: opacity 0.2s;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+.btn-blue {
+    background-color: #007bff;
+}
+
+.btn-green {
+    background-color: #28a745;
+}
+
+.btn-red {
+    background-color: #dc3545;
+}
+
+.btn-purple {
+    background-color: #6f42c1;
+}
+
+.loading {
+    text-align: center;
+    padding: 20px;
+    font-size: 1.2em;
+    color: #666;
+}
+
+.details-container {
+    padding: 20px;
+}
+
+.details-card {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.back-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.description-title {
+    margin-top: 20px;
+    font-size: 1.3em;
+    color: #333;
+}
+
+
+
+
+.search-input{
+    width: 800px;
+    height:30px;
+    margin-left: 10px;
+    border: 2px solid;
+    border-radius: 10px;
+  }
+  h1{
+    color:gold;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 80px;
+    border-bottom: 2px solid;
+    border-top: 2px solid;
+  
+  }
+  #searchbutton{
+    background-color:blue;
+    color:yellow;
+    height: 30px;
+    border: 2px solid;
+  }
+
+  #TopGainers{
+    background-color:green;
+    color:black;
+    height: 30px;
+    border: 2px solid;
+  }
+  #TopLosers{
+    background-color:red;
+    color:black;
+    height: 30px;
+    border: 2px solid; 
+  }
+  #NewListed{
+    background-color:bisque;
+    color:black;
+    height: 30px;
+    border: 2px solid; 
+  }
+  
+  #logout{
+    background-color:orange;
+    color:black;
+    height: 30px;
+    border: 2px solid; 
+  }
+  
+  #portfilio
+  {
+  background-color:yellow;
+    color:green;
+    height: 30px;
+    border: 2px solid;} 
+ 
+ 
+  #report{
+  background-color:violet;
+    color:blue;
+    height: 30px;
+    border: 2px solid;
+  
+  }
+  
+ 
+  body{
+    background-color: rgb(52, 49, 49);
+  }
+  
+  
+  
+span{
+
+
+margin-left:480px;
+color:gold;
+font-weight:bolder;
+}
+
+#description
+{
+    color:#f4f4f4;
+}
